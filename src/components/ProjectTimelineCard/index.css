@@ -1,0 +1,11 @@
+/* Write your CSS here */
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
