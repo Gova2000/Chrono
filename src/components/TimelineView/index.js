@@ -8,9 +8,6 @@ import './index.css'
 class TimelineView extends Component {
   state = {pojectlist: [], courselist: []}
 
-  componentDidMount() {
-    this.Assign()
-  }
 
   Assign = () => {
     const {timelineItemsList} = this.props
@@ -26,6 +23,7 @@ class TimelineView extends Component {
   }
 
   render() {
+     this.Assign()
     const {timelineItemsList} = this.props
     const {projectlist, courselist} = this.state
     console.log(projectlist, courselist)
